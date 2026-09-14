@@ -3,7 +3,10 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from dotenv import load_dotenv
+from app.models.user import User
 import os
+
+__all__ = ['User']
 
 load_dotenv()
 
